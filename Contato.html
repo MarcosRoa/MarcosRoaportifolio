@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        .container {
+            display: grid;
+        }
+        header {
+            grid-column-start: 1 ;
+            grid-column-end: 12;
+            background-color: cadetblue;
+        }
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;
+            gap: 20px;
+        }
+        .wrapper {
+            grid-column-start: 1;
+            grid-column-end: 1;
+        }
+        .fotoMarcos {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        ul{
+            list-style-type: none;
+            color: #506e6a;
+        }
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #506e6a 3px;
+        }
+        li{
+            float: left;
+        }
+        a.hover {
+            background-color: #506e6a;
+            color: white;
+        }
+        .wrapper {
+            grid-column-start: 1;
+            grid-column-end: 1;
+        }
+        .texto {
+            grid-column-start: 7;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: left;
+        }
+        .texto2 {
+            grid-column-start: 4;
+            grid-column-end: 6;
+            padding-left: 8px;
+            padding-right: 5px;
+            text-align: left;
+            background-color: sandybrown;
+        }
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: cadetblue;
+            color: black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="container"> 
+        <h1 style="color: black; text-align: center;">Portifólio Pessoal</h1>
+       
+
+    </header>
+    <nav class="container  menu">
+        <ul>
+            <li><a href="index.html">Principal</a></li>
+            <li><a href="Hobbies.html">Hobbies</a></li>
+            <li><a href="Formação Academica.html">Formação Acadêmica</a></li>
+            <li><a href="Teste feito em outro Site.html">Outros Trabalhos</a></li> 
+            <li><a href="Contato.html">contato</a></li> 
+        </ul>
+</nav>
+<div class="container wrapper">
+    <aside class="fotoMarcos">
+        <img src="atendente.png" width="200">''''
+        <div class="infos">
+            <p><h2>Seu contato é primordial.</h2></p>
+            <p>
+                <h2>Segunda feira á sexta feira das 8:00 ás 17:00</h2>
+            </p>
+        
+        </div>
+    </aside>
+    <section class="texto2">
+        <h1>MARCOS ROA</h1>
+        <h3>  <a href="https://www.facebook.com/">Facebook</a> <br><br> <br>
+            <a href="https://x.com/?lang=pt-br">Twiter"X"</a><br><br> <br>
+            <a href="https://www.instagram.com/">Instagram</a> <br><br> <br>
+            <a href="https://www.google.com/intl/pt_br/gmail/about/">E-mail</a><br><br> <br> 
+            <a href="https://www.whatsapp.com/?lang=pt_BR">WhatsApp</a> </h3>
+    </section>
+    <section class="texto">
+        <br><br>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste aliquam, sed aspernatur est consequatur omnis tempora praesentium magnam, facilis nemo sit, debitis numquam deleniti maiores harum velit dicta doloribus atque officiis ex non. Ab commodi reprehenderit accusamus obcaecati, omnis quae laborum suscipit at tempore. Omnis nesciunt exercitationem doloremque alias saepe sequi, nostrum earum porro atque eum tenetur eaque asperiores incidunt officia consequatur fuga enim? Ipsam similique rerum omnis quasi asperiores id beatae quam, praesentium exercitationem iusto maiores doloremque eaque autem et aut delectus minima iure? Dignissimos commodi accusamus suscipit soluta eum libero ea quas alias, rem corrupti, dolores quidem labore facilis voluptatibus optio molestiae. Cum eum ab autem ea, in quos distinctio nisi magnam maiores reprehenderit quaerat. Saepe officiis quas totam iure, laborum veniam rerum quasi quae corrupti nisi consequatur eum ducimus. Rem ipsam eligendi dolorum, numquam laudantium dolorem ducimus eveniet architecto, corporis facilis facere. Incidunt animi, qui possimus quo explicabo accusantium, totam fugiat vitae est earum sed officia mollitia nulla repellendus dolorum cum provident velit! Labore fugit non pariatur excepturi magni eius nostrum similique suscipit aliquam tenetur sint illum soluta autem, sunt maiores veniam. Rem doloribus ipsum repellat harum fugiat dolorem officia.
+     <h1>Deixe sua mensagem, retormanos para você.</h1>    
+    <form action="" method=""> 
+        <!-- table para organizar, Tabela oculta-->
+<table>
+    <!--Insirir o nome-->
+    <tr>                
+         <th><label for="nome">Nome:</label></th>                 
+         <td><input style="border-color: blue;" type="text" name="nome" 
+            id="nome"></td>             
+        </tr> 
+        <!--Insirir o e-mail-->
+        <tr>                 
+            <th><label for="email">E-mail:</label></th>                 
+            <td><input style="border-color: blue;" type="email" name="email" id="email"></td>             
+        </tr> 
+        <!--Insirir a mensagem-->
+        <tr>                 
+            <th><label for="msg">Digite sua Mensagem:</label></th>                 
+            <td><textarea style="border-color: blue;" name="msg" rows="5" cols="40">Digite sua mensagem</textarea></td>
+        </tr>
+        <!--Insirir o botão de enviar-->
+        <tr>                 
+            <td></td>                 
+            <td> <button style="border-color: blue;" >Enviar</button></td>                       
+        </tr> 
+</table>
+    </section>
+</div>
+<footer class="container">
+    <H1>Desenvolvido para fins de Educacionais - Trabalho de Atividade prática</H1>
+</footer>
+</body>
+</html>
